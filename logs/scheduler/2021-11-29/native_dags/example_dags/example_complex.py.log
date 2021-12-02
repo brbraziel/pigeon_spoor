@@ -1,0 +1,26 @@
+[2021-11-29 22:09:15,656] {processor.py:163} INFO - Started process (PID=215) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2021-11-29 22:09:15,658] {processor.py:625} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-29 22:09:15,658] {logging_mixin.py:109} INFO - [2021-11-29 22:09:15,658] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2021-11-29 22:09:15,722] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2021-11-29 22:09:19,908] {logging_mixin.py:109} INFO - [2021-11-29 22:09:19,908] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-11-29 22:09:20,558] {logging_mixin.py:109} INFO - [2021-11-29 22:09:20,558] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-11-29 22:09:20,627] {logging_mixin.py:109} INFO - [2021-11-29 22:09:20,627] {manager.py:496} INFO - Created Permission View: can edit on DAG:example_complex
+[2021-11-29 22:09:20,652] {logging_mixin.py:109} INFO - [2021-11-29 22:09:20,652] {manager.py:496} INFO - Created Permission View: can read on DAG:example_complex
+[2021-11-29 22:09:20,655] {logging_mixin.py:109} INFO - [2021-11-29 22:09:20,655] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-29 22:09:20,673] {logging_mixin.py:109} INFO - [2021-11-29 22:09:20,672] {dag.py:2415} INFO - Creating ORM DAG for example_complex
+[2021-11-29 22:09:20,690] {logging_mixin.py:109} INFO - [2021-11-29 22:09:20,690] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-29 22:09:20,725] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 5.072 seconds
+[2021-11-29 22:09:51,054] {processor.py:163} INFO - Started process (PID=288) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2021-11-29 22:09:51,058] {processor.py:625} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-29 22:09:51,058] {logging_mixin.py:109} INFO - [2021-11-29 22:09:51,058] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2021-11-29 22:09:51,151] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2021-11-29 22:09:51,179] {logging_mixin.py:109} INFO - [2021-11-29 22:09:51,178] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-29 22:09:51,231] {logging_mixin.py:109} INFO - [2021-11-29 22:09:51,230] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-29 22:09:51,261] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.215 seconds
+[2021-11-29 22:10:21,515] {processor.py:163} INFO - Started process (PID=340) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2021-11-29 22:10:21,517] {processor.py:625} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-29 22:10:21,517] {logging_mixin.py:109} INFO - [2021-11-29 22:10:21,517] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2021-11-29 22:10:21,555] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2021-11-29 22:10:21,570] {logging_mixin.py:109} INFO - [2021-11-29 22:10:21,570] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-29 22:10:21,583] {logging_mixin.py:109} INFO - [2021-11-29 22:10:21,583] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-29 22:10:21,601] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.091 seconds
