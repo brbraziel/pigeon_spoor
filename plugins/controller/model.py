@@ -42,13 +42,3 @@ class Model:
         
         self._arrange_results()
     
-    def plot_from_db(self):
-        import pandas as pd
-        import matplotlib.pyplot as plt
-
-        df = pd.read_json(f'{ABS_PATH}/bucket/output/2021_11_29.json')
-        df[df['class'] == 'bird']['timestamp'].value_counts().sort_values().plot()
-        plt.show()
-
-
-Model().plot_from_db()
